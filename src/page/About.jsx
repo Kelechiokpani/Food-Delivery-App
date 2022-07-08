@@ -12,13 +12,12 @@ const About = () => {
     <div className="w-full h-auto flex flex-col items-center justify-center">
       <section className=" about-hero  grid gap-2 w-[100rem]">
         <div className=" py-2 flex-1 flex items-center relative w-full justify-center ">
-          <p className="text-[2rem] lg:text-[4.2rem] font-bold tracking-wide text-headingColor ">
-            About
+          <p className="text-[2rem] lg:text-[4.2rem] font-bold tracking-wide text-black ">
             <span
               className="text-orange-600 
                 text-[2.5rem] lg:text-[5rem] pl-5"
             >
-              Us
+              About Us
             </span>
           </p>
         </div>
@@ -103,16 +102,6 @@ const About = () => {
             </section>
           </div>
         ))}
-
-      <section
-        className=" grid grid-cols-1 md:grid-cols-2  gap-2 w-full"
-        id="home"
-      >
-        <div className="bg-blue-800">hi about page</div>
-        <div className="bg-blue-800">hi about page</div>
-        <div className="bg-blue-800">hi about page</div>
-        <div className="bg-blue-800">hi about page</div>
-      </section>
     </div>
   );
 };
