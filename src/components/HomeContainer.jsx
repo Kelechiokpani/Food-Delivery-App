@@ -30,7 +30,7 @@ const HomeContainer = () => {
             className="text-orange-600 
                 text-[2.5rem] lg:text-[5rem]"
           >
-            Your City
+            Your City,
           </span>
         </p>
         <p className="text-base text-textColor text-center md:text-left md:w-[65%]">
